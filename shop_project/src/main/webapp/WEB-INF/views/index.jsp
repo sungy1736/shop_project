@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="path" value="${pageContext.request.contextPath }"/>
 <head>
 <link rel="stylesheet" type="text/css" href="/resources/css/test.css">
 </head>
@@ -10,6 +11,7 @@
     <p id="test"> <c:out value="${test.id}" /></p>
 
 </c:forEach>
+	<button onclick="location.replace('${parg}/goods_list')">상품리스트</button>
 
 </body>
 </html>
