@@ -12,6 +12,8 @@
 
 </c:forEach>
 	<button onclick="location.replace('${parg}/goods_list')">상품리스트</button>
+	<button onclick="location.replace('${path}/mypage/mypageMain.do')">마이페이지</button>
+	
 
 </body>
 </html>
