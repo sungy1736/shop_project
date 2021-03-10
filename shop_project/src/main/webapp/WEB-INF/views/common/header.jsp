@@ -39,11 +39,12 @@
 			<!-- 로고img / 검색창 div -->
 			<div id="header_second">
 				<div>
-					<img src="${path }/resources/img/logo.png"></img>
-		
-					<input id="search" type="text" placeholder="원하는 상품을 검색하세요" />
-					<button type="button">검색</button>
-					<input id="grade" type="text" placeholder="검색순위" />
+					<a href="${path }/shop/">
+						<img src="${path }/resources/img/logo.png"></img>
+					</a>
+						<input id="search" type="text" placeholder="원하는 상품을 검색하세요" />
+						<button type="button">검색</button>
+						<input id="grade" type="text" placeholder="검색순위" />
 				</div>
 			</div>			
 			

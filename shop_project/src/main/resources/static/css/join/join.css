@@ -1,6 +1,6 @@
 .join_info {
 
-	margin-left:300px;
+	margin-left:100px;
 }
 
 .container {
@@ -16,7 +16,7 @@
 	
 	font-size:40px;
 	font-weight:bold;	
-	margin-left:200px;
+	margin-left:350px;
 }
 
 .join_content > form > div > input {
@@ -26,11 +26,11 @@
 	width:300px;
 }
 
-.join_content > form > div > button {
+.join_content > form > table > td > button {
 	
 	display:inline-block;
 	margin-left:50px;
-	width:150px;
+	width:100px;
 }
 
 
