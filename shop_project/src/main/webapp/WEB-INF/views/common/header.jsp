@@ -30,7 +30,7 @@
 			<div id="header_first">
 				<div>
 					<a href="#" class="header_login">로그인</a>
-					<a href="#" class="header_join">회원가입</a>
+					<a href="${path }/shop/join" class="header_join">회원가입</a>
 					<a href="#" class="header_mypage">마이페이지</a>
 					<a href="#" class="header_service">고객센터</a>
 				</div>

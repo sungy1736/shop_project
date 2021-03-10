@@ -23,14 +23,18 @@ public class MainController {
 	private TestService ts;
 
 	@RequestMapping("/")
-	public String user(Model m) throws Exception {
-		logger.info("들어옴");
+	public String user(Model m) throws Exception {		
 		List<User> list = ts.select();
 		for(int i=0;i<list.size();i++) {
 		
 		}		
 		m.addAttribute("testList",list);
 		return "index";
+	}
+	
+	@RequestMapping("/join")
+	public String join() {
+		return "/join/join";
 	}
 	
 }
