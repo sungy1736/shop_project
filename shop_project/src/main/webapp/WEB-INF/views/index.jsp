@@ -8,7 +8,8 @@
 <body>
  <c:forEach var="test" items="${testList}">
 
-    <p id="test"> <c:out value="${test.id}" /></p>
+    <p id="test"> <c:out value="${test.user_id}" /></p>
+    <p id="test"> <c:out value="${test.user_name}" /></p>
 
 </c:forEach>
 	<button onclick="location.replace('${parg}/goods_list')">상품리스트</button>

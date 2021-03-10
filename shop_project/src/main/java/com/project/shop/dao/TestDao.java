@@ -2,10 +2,10 @@ package com.project.shop.dao;
 
 import java.util.List;
 
-import com.project.shop.vo.Test;
+import com.project.shop.vo.User;
 
 public interface TestDao {
 
-	public List<Test> select() throws Exception;
+	public List<User> select() throws Exception;
 	
 }

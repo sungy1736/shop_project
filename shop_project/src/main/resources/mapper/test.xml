@@ -4,8 +4,8 @@
 
 <mapper namespace="com.project.shop.dao.TestDao">
 
-	<select id="select" resultType="com.project.shop.vo.Test">
-		SELECT * FROM TEST;
+	<select id="select" resultType="com.project.shop.vo.User">
+		SELECT * FROM tb_shop_user;
 	</select>
 
 </mapper>

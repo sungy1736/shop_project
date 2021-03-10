@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.project.shop.dao.TestDao;
-import com.project.shop.vo.Test;
+import com.project.shop.vo.User;
 
 @Service
 public class TestServiceImpl implements TestService {
@@ -15,7 +15,7 @@ public class TestServiceImpl implements TestService {
 	private TestDao dao;
 	
 	@Override
-	public List<Test> select() throws Exception {
+	public List<User> select() throws Exception {
 		
 		// TODO Auto-generated method stub
 		return dao.select();

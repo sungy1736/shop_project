@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.project.shop.service.TestService;
 import com.project.shop.vo.Test;
+import com.project.shop.vo.User;
 
 @Controller
 public class TestController {
@@ -19,15 +20,27 @@ public class TestController {
 	
 	@Autowired
 	private TestService ts;
+//	
+//	@RequestMapping("/index")
+//	public String index(Model m) throws Exception {
+//		logger.info("들어옴");
+//		List<Test> list = ts.select();
+//		for(int i=0;i<list.size();i++) {
+//		
+//		}		
+//		m.addAttribute("testList",list);
+//		return "index";
+//	}
 	
-	@RequestMapping("/index")
-	public String index(Model m) throws Exception {
+	@RequestMapping("/tb_shop_user")
+	public String user(Model m) throws Exception {
 		logger.info("들어옴");
-		List<Test> list = ts.select();
+		List<User> list = ts.select();
 		for(int i=0;i<list.size();i++) {
 		
 		}		
 		m.addAttribute("testList",list);
 		return "index";
 	}
+	
 }
