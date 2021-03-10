@@ -1,0 +1,38 @@
+.join_info {
+
+	margin-left:300px;
+}
+
+.container {
+	margin-top:100px;
+}
+.join_ment{
+	
+	margin-top:30px;
+	margin-bottom:30px;
+	border:1px soild black;
+}
+.join_ment span{
+	
+	font-size:40px;
+	font-weight:bold;	
+	margin-left:200px;
+}
+
+.join_content > form > div > input {
+	
+	display:inline-block;
+	margin-left:50px;
+	width:300px;
+}
+
+.join_content > form > div > button {
+	
+	display:inline-block;
+	margin-left:50px;
+	width:150px;
+}
+
+
+
+

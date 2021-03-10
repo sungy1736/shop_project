@@ -1,0 +1,16 @@
+#footer_main {
+	height:150px;
+	width:100%;
+	background-color:black; 
+	display:block;
+	margin-top:30px;
+}
+
+#footer_sub {
+	
+	margin-left:200px;
+}
+
+#footer_sub span {
+	color:white;
+}
