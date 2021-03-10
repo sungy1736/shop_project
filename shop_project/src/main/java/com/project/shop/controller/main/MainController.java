@@ -1,4 +1,4 @@
-package com.project.shop.controller;
+package com.project.shop.controller.main;
 
 import java.util.List;
 
@@ -15,14 +15,14 @@ import com.project.shop.vo.User;
 
 @Controller
 @RequestMapping("shop")
-public class TestController {
+public class MainController {
 	
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	@Autowired
 	private TestService ts;
 
-	@RequestMapping("/main")
+	@RequestMapping("/")
 	public String user(Model m) throws Exception {
 		logger.info("들어옴");
 		List<User> list = ts.select();

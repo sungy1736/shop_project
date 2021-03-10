@@ -1,0 +1,36 @@
+#section_banner {
+	width:100%;
+	height:500px;
+}
+
+#section_banner img {
+	height:450px;
+	width:100%;
+	margin-top:20px;
+}
+
+#section_bestSeller {
+	text-align:center;
+}
+#section_bestSeller .bestSeller_ment{
+	
+	font-weight:bold;
+	font-size:30px;	
+	
+}
+
+#section_bestSeller img{
+	height:200px;
+	width:300px;	
+}
+
+#section_bestSeller .bestSeller_div {
+	margin-top:20px;
+	margin-left:330px;
+}
+
+#section_bestSeller .bestSeller_wrap {
+	border:1px solid lightgray;
+	margin-left:10px;
+	margin-top:10px;
+}
