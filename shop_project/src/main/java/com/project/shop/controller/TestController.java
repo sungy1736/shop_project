@@ -14,25 +14,15 @@ import com.project.shop.vo.Test;
 import com.project.shop.vo.User;
 
 @Controller
+@RequestMapping("shop")
 public class TestController {
 	
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	@Autowired
 	private TestService ts;
-//	
-//	@RequestMapping("/index")
-//	public String index(Model m) throws Exception {
-//		logger.info("들어옴");
-//		List<Test> list = ts.select();
-//		for(int i=0;i<list.size();i++) {
-//		
-//		}		
-//		m.addAttribute("testList",list);
-//		return "index";
-//	}
-	
-	@RequestMapping("/tb_shop_user")
+
+	@RequestMapping("/main")
 	public String user(Model m) throws Exception {
 		logger.info("들어옴");
 		List<User> list = ts.select();
