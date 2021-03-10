@@ -12,7 +12,7 @@
 <!-- Bootstrap 라이브러리 호출 -->
 <link rel="stylesheet" type="text/css" href="/resources/scss/bootstrap-4.4.1/css/bootstrap.min.css">
 <!-- header css파일 호출 -->
-<link rel="stylesheet" type="text/css" href="/resources/css/header.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/common/header.css">
 
 <!DOCTYPE html>
 <html>

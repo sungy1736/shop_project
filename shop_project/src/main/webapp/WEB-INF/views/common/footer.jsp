@@ -9,14 +9,16 @@
 <!-- Bootstrap 라이브러리 호출 -->
 <link rel="stylesheet" type="text/css" href="/resources/scss/bootstrap-4.4.1/css/bootstrap.min.css">
 
+<link rel="stylesheet" type="text/css" href="/resources/css/common/footer.css">
+
 	<footer>
-		<div style="height:150px;width:100%;background-color:black; display:block;" class="footer_main">
-			<div style="margin-left:200px;">
+		<div id="footer_main">
+			<div id="footer_sub">
 				<br>
 				<br>
-				<span style="color:white;font-weight:bold;">상호 : (주)Shop </span>
+				<span>상호 : (주)Shop </span>
 				<br>
-				<span style="color:white;">Copyright © 2021 Shop Sports fashion korea All rights reserved.</span>
+				<span>Copyright © 2021 Shop Sports fashion korea All rights reserved.</span>
 			</div>
 		</div>
 	</footer>
