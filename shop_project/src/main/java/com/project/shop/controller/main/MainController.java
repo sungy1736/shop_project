@@ -24,11 +24,11 @@ public class MainController {
 
 	@RequestMapping("/")
 	public String user(Model m) throws Exception {		
-		List<User> list = ts.select();
-		for(int i=0;i<list.size();i++) {
-		
-		}		
-		m.addAttribute("testList",list);
+//		List<User> list = ts.select();
+//		for(int i=0;i<list.size();i++) {
+//		
+//		}		
+//		m.addAttribute("testList",list);
 		return "index";
 	}
 	
