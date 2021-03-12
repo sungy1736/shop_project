@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+						"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.project.shop.dao.user.UserDao">
+
+	<insert id="joinUser" parameterType="com.project.shop.vo.User">
+		INSERT INTO TB_SHOP_USER VALUES(#{user_seq},#{user_id},#{user_name},#{user_phone},#{user_email},#{user_pw},#{user_address},'일반','s',sysdate(),null)
+	</insert>
+
+</mapper>
