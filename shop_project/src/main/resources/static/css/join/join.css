@@ -21,9 +21,9 @@
 
 .join_content > form > div > input {
 	
-	display:inline-block;
+	display:block;
 	margin-left:50px;
-	width:300px;
+	width:200px;
 }
 
 .join_content > form > table > td > button {

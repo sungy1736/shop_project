@@ -17,6 +17,13 @@ public class UserDaoImpl implements UserDao {
 		System.out.print("dao 유저 : " + user);
 		return session.insert(nameSpace+"joinUser", user);
 	}
+
+	@Override
+	public String checkId(String user_id) {
+		// TODO Auto-generated method stub
+		return session.selectOne(nameSpace+"checkId",user_id);
+	}
+	
 	
 	
 }

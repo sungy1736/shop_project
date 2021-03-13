@@ -7,5 +7,8 @@
 	<insert id="joinUser" parameterType="com.project.shop.vo.User">
 		INSERT INTO TB_SHOP_USER VALUES(#{user_seq},#{user_id},#{user_name},#{user_phone},#{user_email},#{user_pw},#{user_address},'일반','s',sysdate(),null)
 	</insert>
-
+	
+	<select id="checkId" parameterType="string" resultType="string">
+		SELECT USER_ID FROM TB_SHOP_USER WHERE USER_ID = #{user_id}
+	</select>
 </mapper>
