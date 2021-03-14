@@ -13,6 +13,7 @@
 <script type="text/javascript" src="/resources/scss/bootstrap-4.4.1/js/bootstrap.js"></script>
 <!-- header css파일 호출 -->
 <link rel="stylesheet" type="text/css" href="/resources/css/common/header.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
 
 
 <!DOCTYPE html>

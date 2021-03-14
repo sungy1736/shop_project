@@ -18,19 +18,20 @@
 	font-weight:bold;	
 	margin-left:350px;
 }
-
-.join_content > form > div > input {
+.test {
 	
 	display:block;
-	margin-left:50px;
-	width:200px;
+
 }
 
-.join_content > form > table > td > button {
+.join_content #joinBtn {
 	
-	display:inline-block;
-	margin-left:50px;
 	width:100px;
+	margin-left:400px;
+}
+
+.tesst{
+	height:30px;
 }
 
 

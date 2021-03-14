@@ -4,8 +4,9 @@
 
 <link rel="stylesheet" type="text/css"
 	href="/resources/css/join/join.css">
+
 <%@ include file="/WEB-INF/views/common/header.jsp"%>
-<script type="text/javascript" src="/resources/js/joinUser.js"></script>
+
 <section>
 	<div class="container">
 		<div class="join_info">
@@ -14,54 +15,29 @@
 			</div>
 			<div class="join_content">
 				<form action="${path }/shop/joinUser" method="post">
-					<table class="table">
-						<tr>
-							<td><span>아이디</span></td>
-							<td><input id="user_id" class="form-control" type="text"
-								placeholder="아이디를 입력해주세요." name="user_id">
-								<span id="check_message"></span></td>									
-						</tr>
+			
+					<div class="row" >
+					<span style="border:1px solid lightgray; color:gray;"><i  class="fa fa-id-card fa-lg"></i></span>
+					<input style="border:1px solid lightgray;" class="form-control" id="user_id"  type="text" placeholder="아이디" name="user_id"></input>
+					<span id="check_id"></span>  
+					</div>
+					
+					<input id="user_pw" class="form-control" type="password" placeholder="비밀번호를 입력해주세요." name="user_pw"> 
+					<input id="user_pwd" class="form-control" type="password" placeholder="비밀번호를 확인해주세요.">
+					
+					<span id="check_pw"></span>
+					<input class="form-control" type="text" placeholder="이름을 입력해주세요." name="user_name"> 
+					<input class="form-control" type="email" placeholder="이메일을 입력해주세요." name="user_email">
+					<button class="form-control" type="button">이메일 인증</button>
+					<input class="form-control" type="tel" placeholder="휴대폰번호를 입력해주세요." name="user_phone">
+					<input class="form-control" type="text" placeholder="주소를 입력해주세요." name="user_address">
+					<button class="form-control" type="button">우편번호 검색</button>
 
-						<tr>
-							<td><span>비밀번호</span></td>
-							<td><input class="form-control" type="password"
-								placeholder="비밀번호를 입력해주세요." name="user_pw"></td>
-						</tr>
-						<tr>
-							<td><span>비밀번호 확인</span></td>
-							<td><input class="form-control" type="password"
-								placeholder="비밀번호를 확인해주세요."></td>
-						</tr>
-						<tr>
-							<td><span>이름</span></td>
-							<td><input class="form-control" type="text"
-								placeholder="이름을 입력해주세요." name="user_name"></td>
-						</tr>
-						<tr>
-							<td><span>이메일</span></td>
-							<td><input class="form-control" type="email"
-								placeholder="이메일을 입력해주세요." name="user_email"></td>
-						</tr>
-						<tr>
-							<td><span>휴대폰번호</span></td>
-							<td><input class="form-control" type="tel"
-								placeholder="휴대폰번호를 입력해주세요." name="user_phone"></td>
-						</tr>
-						<tr>
-							<td><span>주소</span></td>
-							<td><input class="form-control" type="text"
-								placeholder="주소를 입력해주세요." name="user_address"></td>
-							<td><button class="form-control" type="button">우편번호
-									검색</button></td>
-						</tr>
-						<tr>
-							<td><button type="submit">회원가입</button></td>
-						</tr>
-					</table>
+					<button id="joinBtn" class="form-control" type="submit">회원가입</button>
 				</form>
 			</div>
 		</div>
 	</div>
 </section>
-
+<script type="text/javascript" src="/resources/js/joinUser.js"></script>
 <%@ include file="/WEB-INF/views/common/footer.jsp"%>
