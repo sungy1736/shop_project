@@ -4,9 +4,8 @@ import java.util.Date;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
+
 
 @Data
 @AllArgsConstructor
@@ -25,4 +24,8 @@ public class User {
 	private String user_grade;
 	private Date user_enrollDate;
 	private Date user_dropDate;
+	
+
+	
+	
 }

@@ -8,11 +8,13 @@
 
 <!-- 로컬환경 PATH값 저장 -->
 <c:set var="path" value="${pageContext.request.contextPath }"/>
-
+<script type="text/javascript" src="/resources/lib/jquery-3.6.0.min.js"></script>
 <!-- Bootstrap 라이브러리 호출 -->
-<link rel="stylesheet" type="text/css" href="/resources/scss/bootstrap-4.4.1/css/bootstrap.min.css">
+<script type="text/javascript" src="/resources/scss/bootstrap-4.4.1/js/bootstrap.js"></script>
 <!-- header css파일 호출 -->
 <link rel="stylesheet" type="text/css" href="/resources/css/common/header.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -43,11 +45,12 @@
 			<!-- 로고img / 검색창 div -->
 			<div id="header_second">
 				<div>
-					<img src="${path }/resources/img/logo.png"></img>
-		
-					<input id="search" type="text" placeholder="원하는 상품을 검색하세요" />
-					<button type="button">검색</button>
-					<input id="grade" type="text" placeholder="검색순위" />
+					<a href="${path }/shop/">
+						<img src="${path }/resources/img/logo.png"></img>
+					</a>
+						<input id="search" type="text" placeholder="원하는 상품을 검색하세요" />
+						<button type="button">검색</button>
+						<input id="grade" type="text" placeholder="검색순위" />
 				</div>
 			</div>			
 			

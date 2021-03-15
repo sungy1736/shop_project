@@ -21,7 +21,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 	        sessionFactory.setDataSource(dataSource);
 	        sessionFactory.setMapperLocations( 
-	        		new PathMatchingResourcePatternResolver().getResources("classpath:mapper/*.xml"));
+	        		new PathMatchingResourcePatternResolver().getResources("classpath:mapper/**/*.xml"));
 	        return sessionFactory.getObject();
 	    }
 

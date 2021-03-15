@@ -1,6 +1,6 @@
 .join_info {
 
-	margin-left:300px;
+	margin-left:100px;
 }
 
 .container {
@@ -16,21 +16,22 @@
 	
 	font-size:40px;
 	font-weight:bold;	
-	margin-left:200px;
+	margin-left:350px;
+}
+.test {
+	
+	display:block;
+
 }
 
-.join_content > form > div > input {
+.join_content #joinBtn {
 	
-	display:inline-block;
-	margin-left:50px;
-	width:300px;
+	width:100px;
+	margin-left:400px;
 }
 
-.join_content > form > div > button {
-	
-	display:inline-block;
-	margin-left:50px;
-	width:150px;
+.tesst{
+	height:30px;
 }
 
 
