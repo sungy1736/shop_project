@@ -10,8 +10,7 @@
 		<div class="container-fluid">
 		
 		<!-- 배너영역 -->
-		<div id="section_banner">
-			<img src="${path }/resources/img/banner.jpg"></img>
+		<div id="section_banner">		
 		</div>
 		
 		<!-- 베스트셀러 영역 -->
@@ -129,4 +128,5 @@
 		</div>
 		</div>
 	</section>
+<script type="text/javascript" src="/resources/js/index.js"></script>
 <%@ include file="/WEB-INF/views/common/footer.jsp" %>

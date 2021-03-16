@@ -1,7 +1,7 @@
 #footer_main {
 	height:150px;
 	width:100%;
-	background-color:black; 
+	background-color:lightgray; 
 	display:block;
 	margin-top:30px;
 }
@@ -12,5 +12,5 @@
 }
 
 #footer_sub span {
-	color:white;
+	color:black;
 }

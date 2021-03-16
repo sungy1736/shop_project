@@ -34,7 +34,7 @@
 			<div id="header_none"></div>
 			<!-- 로그인/회원가입/마이페이지/고객센터 div -->
 			<div id="header_first">
-				<div>
+				<div class="header_first_sub">
 					<a href="#" class="header_login">로그인</a>
 					<a href="${path }/shop/join" class="header_join">회원가입</a>
 					<a href="${path }/shop/mypageMain.do" class="header_mypage">마이페이지</a>
@@ -44,13 +44,18 @@
 			
 			<!-- 로고img / 검색창 div -->
 			<div id="header_second">
-				<div>
+				<div class="row">
+					<div>
 					<a href="${path }/shop/">
-						<img src="${path }/resources/img/logo.png"></img>
+						<%-- <img src="${path }/resources/img/logo.png"></img> --%>
+						<div style="width:200px;height:70px;border:1px solid  black;margin-top:10px;margin-left:200px;">로고</div>
 					</a>
-						<input id="search" type="text" placeholder="원하는 상품을 검색하세요" />
-						<button type="button">검색</button>
+					</div>			
+					<div class="search_div row">	
+						<input id="search" type="text" placeholder="원하는 상품을 검색하세요">
+						<button><i class="fa fa-search fa-2x"></i></button>
 						<input id="grade" type="text" placeholder="검색순위" />
+					</div>
 				</div>
 			</div>			
 			
@@ -61,31 +66,27 @@
 						<div class="collapse navbar-collapse" id="navbar_category">
 						    <ul class="navbar-nav">
 						      <li class="nav-item active">
-						        <a class="nav-link" href="#" style="color:yellow;">category1</a>
+						        <a class="nav-link" href="#" style="color:black;">category1</a>
 						      </li>
 						      <li class="nav-item active">
-						        <a class="nav-link" href="#">category2</a>
+						        <a class="nav-link" href="#" style="color:black;">category2</a>
 						      </li>
 						      <li class="nav-item active">
-						        <a class="nav-link" href="#">category3</a>
+						        <a class="nav-link" href="#" style="color:black;">category3</a>
+						      </li>
+						          <li class="nav-item active" >
+						        <a class="nav-link" href="#" style="color:black;">category4</a>
 						      </li>
 						          <li class="nav-item active">
-						        <a class="nav-link" href="#">category4</a>
+						        <a class="nav-link" href="#" style="color:black;">category5</a>
 						      </li>
 						          <li class="nav-item active">
-						        <a class="nav-link" href="#">category5</a>
-						      </li>
-						          <li class="nav-item active">
-						        <a class="nav-link" href="#">category6</a>
+						        <a class="nav-link" href="#" style="color:black;">category6</a>
 						      </li>
 						    </ul>
 						</div>
 					</nav>
 				</div>
-			</div>
-			
-			<div id="header_four">
-				
 			</div>
 		</div>
 	</header>

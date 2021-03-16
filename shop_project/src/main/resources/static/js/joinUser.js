@@ -22,9 +22,13 @@ function idValid() {
 				'color': 'red',
 				'width': 'auto',
 				'font-size': '15px',
-				'margin-left': '30px'
+				'margin-top':'20px',
+				'display':'block'			
 			});
-			$("#user_id").focus();
+			$("#user_id").css({
+				'border':'none',
+				'border-bottom':'1px solid red'
+			})
 			$("#user_id").val('');
 			msg = false;
 		} else {
@@ -73,22 +77,28 @@ function pwCheck() {
 
 		if (pw != '' && pwd != '') {
 			if (pw == pwd) {
-				$("#check_pw").text('일치');
-				$("#check_pw").append($("<i>").addClass("fa fa-check-circle"));
-				$("#check_pw").css({
+				$("#check_pwd").text('일치');
+				$("#check_pwd").append($("<i>").addClass("fa fa-check-circle"));
+				$("#check_pwd").css({
 					'color': 'green',
 					'width': 'auto',
 					'font-size': '15px',
 			
 				});
 			}else {
-			$("#check_pw").text('불일치');
-			$("#check_pw").append($("<i>").addClass("fa fa-times"));
-			$("#check_pw").css({
+			$("#check_pwd").text('불일치');
+			$("#check_pwd").append($("<i>").addClass("fa fa-times"));
+			$("#check_pwd").css({
 				'color': 'red',
 				'width': 'auto',
 				'font-size': '15px',					
 			});
+			$("#user_pwd").css({
+				'border':'none',
+				'border-bottom':'1px solid red'
+			});
+			$("#user_pw").val('');
+			$("#user_pwd").val('');
 		}
 		}
 	});
