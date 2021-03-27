@@ -109,8 +109,12 @@ header{
 	font-size:20px;
 	display:block;
 	margin-left:600px;
-	
-	
+	margin-top:20px;
+	font-weight:bold;	
+}
+
+.nav-item {
+	margin-left:40px;
 }
 
 

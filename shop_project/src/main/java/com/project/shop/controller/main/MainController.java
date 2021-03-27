@@ -48,4 +48,19 @@ public class MainController {
 		return "/join/join";
 	}
 	
+	@RequestMapping("/login")
+	public String login() {
+		return "/join/login";
+	}
+	
+	@RequestMapping("/findId")
+	public String findId() {
+		return "/join/findId";
+	}
+	
+	@RequestMapping("/findPw")
+	public String findPw() {
+		return "/join/findPw";
+	}
+	
 }

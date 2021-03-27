@@ -7,7 +7,6 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <!-- Bootstrap 라이브러리 호출 -->
-<link rel="stylesheet" type="text/css" href="/resources/scss/bootstrap-4.4.1/css/bootstrap.min.css">
 
 <link rel="stylesheet" type="text/css" href="/resources/css/common/footer.css">
 

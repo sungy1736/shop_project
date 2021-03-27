@@ -2,8 +2,7 @@
    pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<link rel="stylesheet" type="text/css"
-   href="/resources/css/join/join.css">
+<link rel="stylesheet" href="/resources/css/join/join.css">
 
 <%@ include file="/WEB-INF/views/common/header.jsp"%>
 
@@ -97,7 +96,7 @@
             </form>
                            <button id="closeBtn" type="submit">취소</button>
                            <button id="joinBtn" type="submit">회원가입</button>
-         </div>
+         </div>         
       </div>
    </div>
 </section>

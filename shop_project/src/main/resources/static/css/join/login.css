@@ -1,0 +1,85 @@
+.container {
+	height:500px;
+}
+.login_head {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.login_head span {
+	font-size: 30px;
+	font-weight: 700;
+	margin-left: 500px;	
+	border-bottom:3px solid black;
+}
+
+.login_content {
+	border: none;
+}
+
+.login_tab {
+	width: 600px;
+	border: none;
+	margin-left: 280px;
+	border: none;
+}
+
+.login_tab>li {
+	width: 300px;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+.content_input {
+	margin-left: 280px;
+	margin-top: 20px;
+}
+
+.content_input input {
+	border: none;
+	border-bottom: 1px solid black;
+	width: 600px;
+	height: 50px;
+	font-size: 15px;
+}
+
+.content_chk .chk {
+	margin-left: 280px;
+	margin-top: 20px;
+}
+
+.content_chk span {
+	color: gray;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.content_btn {
+	margin-left: 280px;
+	margin-top: 20px;
+}
+
+.content_btn input {
+	background-color: black;
+	width: 600px;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+.content_a {
+	margin-left: 450px;
+	margin-top: 20px;
+}
+
+.content_a a{
+	color:gray;	
+}
+
+.content_api {
+	margin-left: 440px;
+	margin-top: 20px;
+}

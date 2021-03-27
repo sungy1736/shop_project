@@ -1,0 +1,102 @@
+.content_head {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.content_head span {
+	font-size: 30px;
+	font-weight: 700;
+	margin-left: 500px;
+	border-bottom: 3px solid black;
+}
+
+.content_name {
+	margin-left: 280px;
+	margin-top: 20px;
+}
+
+.content_name input {
+	border: none;
+	border-bottom: 1px solid lightgray;
+	width: 600px;
+	height: 50px;
+	font-size: 15px;
+}
+
+.content_id {
+	margin-left: 280px;
+	margin-top: 20px;
+}
+
+.content_id input {
+	border: none;
+	border-bottom: 1px solid lightgray;
+	width: 600px;
+	height: 50px;
+	font-size: 15px;
+}
+
+.content_email {
+	margin-left: 280px;
+	margin-top: 20px;
+}
+
+.content_email input {
+	border: none;
+	border-bottom: 1px solid lightgray;
+	width: 470px;
+	height: 50px;
+	font-size: 15px;
+}
+
+.content_email button {
+	width: 130px;
+	height: 50px;
+	border: 1px solid black;
+	background-color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.content_empty {
+	margin-left: 280px;
+	margin-top: 20px;
+	border: none;
+	border-bottom: 1px solid lightgray;
+	height: 50px;
+	width: 600px;
+}
+
+.content_input {
+	margin-left: 280px;
+	margin-top: 30px;
+}
+
+.content_input span {
+	color: gray;
+	font-size: 13px;
+}
+
+.content_input a {
+	color: black;
+	font-size: 12px;
+	border: black;
+	border: 1px solid black;
+	padding: 12px;
+	width: 100px;
+	font-weight: bold;
+}
+
+.content_input .find_id {
+	margin-left: 385px;
+}
+
+.content_input .find_pw {
+	margin-left: 360px;
+}
+.content_input .join_user {
+	margin-left: 425px;
+	background-color: gray;
+	color: white;
+	border: 1px solid gray;
+}

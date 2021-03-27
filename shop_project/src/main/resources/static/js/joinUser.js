@@ -21,8 +21,7 @@ function idValid() {
 			$("#check_id").css({
 				'color': 'red',
 				'width': 'auto',
-				'font-size': '15px',
-				'margin-top':'20px',
+				'font-size': '12px',
 				'display':'block'			
 			});
 			$("#user_id").css({
@@ -35,7 +34,7 @@ function idValid() {
 			$("#check_message").text('');
 			msg = true;
 		}
-		if (msg) {
+		if (msg == 'true' && $("#user_id").val() != null ) {
 			idCheck();
 		}
 
